@@ -1,0 +1,147 @@
+
+@media screen and  (max-width:600px){
+    .boxes{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding-left: 60px;
+        
+    }
+    .box{
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .information{
+        display: flex;
+        flex-direction: column;
+        margin-top: 390px;
+        padding-left: 40px;
+    }
+    .titre h2{
+        padding: 1.5rem;
+        margin-top: 390px;
+    }
+
+    .clients {
+        background: #f8f9fd;
+        display: flex;
+        align-items: center;
+        height: 100px;
+        
+    }
+    .clients .item {
+        text-align: center;
+        width: 60px;
+    }
+    
+}
+
+@media screen and  (max-width:500px){
+    .boxes{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding-left: 20px;
+        
+    }
+    .box{
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .information{
+        display: flex;
+        flex-direction: column;
+        margin-top: 390px;
+    }
+    .titre h2{
+        padding: 1.5rem;
+        margin-top: 390px;
+    }
+
+    .clients {
+        background: #f8f9fd;
+        display: flex;
+        align-items: center;
+        height: 100px;
+        
+    }
+    .clients .item {
+        text-align: center;
+        width: 60px;
+    }
+    
+}
+
+
+
+@media screen and  (min-width:600px) and (max-width:800px){
+    .boxes{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding-left: 140px;
+        
+        
+    }
+    .box{
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .information{
+        display: flex;
+        flex-direction: column;
+        margin-top: 390px;
+        padding-left: 120px;
+    }
+    .titre h2{
+        padding: 1.5rem;
+        margin-top: 390px;
+    }
+
+    .clients {
+        background: #f8f9fd;
+        display: flex;
+        align-items: center;
+        height: 100px;
+        
+    }
+    .clients .item {
+        text-align: center;
+        width: 60px;
+    }
+    
+}
+
+
+
+@media screen and  (min-width:800px) and (max-width:980px){
+    .information{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
