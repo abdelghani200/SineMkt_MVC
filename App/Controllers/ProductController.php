@@ -5,6 +5,7 @@ class ProductController{
     public function index(){
         $db = new Product();   
         
-        var_dump($db->getAllProducts());
+        $data['products'] = $db->getAllProducts();
+        View::load('product/index',$data);
     }
 }

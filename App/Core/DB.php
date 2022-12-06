@@ -9,7 +9,7 @@ class DB{
         $database = new MysqliDb(HOST,USER,PASS,DBNAME);
 
         if(!$database->connect()){
-            echo "sdtyegf";
+            // echo "sdtyegf";
             $this->db =$database;
             return $this->db;
         }

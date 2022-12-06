@@ -2,7 +2,7 @@
 
 
 // define pase url for the project 
-define("BURL","http://localhost:800/");
+define("BURL","http://mvc_ex1.test//");
 
 
 /**

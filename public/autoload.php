@@ -12,11 +12,12 @@ define("UPLOADS",BASE_VIEW_PATH.'public'.DS.'uploads'.DS);
 
 // configuration files 
 require_once(CONFIG.'config.php');
-// require_once(CONFIG.'helpers.php');
+require_once(CONFIG.'helpers.php');
 
 
 
 // autoload all classes 
+
 $modules = [BASE_VIEW_PATH,APP,CORE,VIEWS,CONTROLLERS,MODELS,CONFIG,LIBS];
 set_include_path(get_include_path(). PATH_SEPARATOR.implode(PATH_SEPARATOR,$modules));
 spl_autoload_register('spl_autoload',true);

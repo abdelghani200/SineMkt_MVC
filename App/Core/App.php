@@ -36,7 +36,7 @@ class App{
             }
         }
         else{
-            echo "hhh";
+            echo "controller not exist";
         }
     }
 }

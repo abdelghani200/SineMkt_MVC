@@ -8,13 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-
-        <meta name="description" content="HOME Le n° 1 du mobilier et de la décoration au Maroc. Meubles, décoration, ameublement, chaise, table, lit, chambre à coucher, fauteuil, salon, canapé.">
+		<meta name="description" content="HOME Le n° 1 du mobilier et de la décoration au Maroc. Meubles, décoration, ameublement, chaise, table, lit, chambre à coucher, fauteuil, salon, canapé.">
 		<meta name="keywords" content="home,home lyrics,ad home tour,home tour,home decor,la home,oh home,vogue home tour,tom rosenthal home,iman home,edith whiskers home,buble home,home weird,model home,vogue home,weird home,home magic,luxury home on a budget,home decor styling tips,home bright,home tiktok,home slowed,home tik tok,la home tour,tour la home,take me home,tom rosenthal home lyrics,ad home tours,curator home,let me go home,edith whiskers home lyrics">
 		<meta name="author" content="Meubles et décoration">
-
-
-
 
 
         <!--font-family-->
@@ -48,9 +44,10 @@
         <!--style.css-->
         <link rel="stylesheet" href="assets/css/style.css">
 
-		<link rel="stylesheet" href="assets/css/mystyle.css">
+        <link rel="stylesheet" href="assets/css/mystyle.css">
+
+        <link rel="stylesheet" href="assets/css/mystyle.css">
 		<link rel="stylesheet" href="assets/css/myresponsive.css">
-		
         
         <!--responsive.css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
@@ -73,234 +70,7 @@
 		
 	
 		<!--welcome-hero start -->
-
 		<header id="home" class="welcome-hero">
-
-			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-				<!--/.carousel-indicator -->
-				 <ol class="carousel-indicators">
-					<li data-target="#header-carousel" data-slide-to="0" class="active"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="1"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="2"><span class="small-circle"></span></li>
-				</ol><!-- /ol-->
-				<!--/.carousel-indicator -->
-
-				<!--/.carousel-inner -->
-				<div class="carousel-inner" role="listbox">
-					<!-- .item -->
-					<div class="item active">
-						<div class="single-slide-item slide1">
-							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-										<div class="col-sm-7">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-txt">
-													<h4>moderne furniture</h4>
-													<h2>Produit le plus vendu</h2>
-													<p>
-														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
-													</p>
-													<div class="packages-price">
-														<p>
-															$ 399.00
-															<del>$ 499.00</del>
-														</p>
-													</div>
-													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
-														<span class="lnr lnr-plus-circle"></span>
-														add <span>to</span> cart
-													</button>
-													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
-														more info
-													</button>
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-										<div class="col-sm-5">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-img">
-													<img src="assets/images/slider/slider1.png" alt="slider image">
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-									</div><!--/.row-->
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
-
-					</div><!-- /.item .active-->
-
-					<div class="item">
-						<div class="single-slide-item slide2">
-							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-										<div class="col-sm-7">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-txt">
-													<h4>moderne furniture</h4>
-													<h2>mapple wood accent chair</h2>
-													<p>
-														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
-													</p>
-													<div class="packages-price">
-														<p>
-															$ 199.00
-															<del>$ 299.00</del>
-														</p>
-													</div>
-													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
-														<span class="lnr lnr-plus-circle"></span>
-														add <span>to</span> cart
-													</button>
-													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
-														more info
-													</button>
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-										<div class="col-sm-5">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-img">
-													<img src="assets/images/slider/slider2.png" alt="slider image">
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-									</div><!--/.row-->
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
-
-					</div><!-- /.item .active-->
-
-					<div class="item">
-						<div class="single-slide-item slide3">
-							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-										<div class="col-sm-7">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-txt">
-													<h4>moderne furniture</h4>
-													<h2>valvet accent arm chair</h2>
-													<p>
-														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
-													</p>
-													<div class="packages-price">
-														<p>
-															$ 299.00
-															<del>$ 399.00</del>
-														</p>
-													</div>
-													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
-														<span class="lnr lnr-plus-circle"></span>
-														add <span>to</span> cart
-													</button>
-													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
-														more info
-													</button>
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-										<div class="col-sm-5">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-img">
-													<img src="assets/images/slider/slider3.png" alt="slider image">
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-									</div><!--/.row-->
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
-						
-					</div><!-- /.item .active-->
-				</div><!-- /.carousel-inner-->
-
-			</div><!--/#header-carousel-->
-             
-
-			<section id="populer-products" class="populer-products">
-				<div class="container">
-					<div class="populer-products-content">
-						<div class="row">
-							<div class="col-md-3">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img mt40">
-										<img src="assets/images/populer-products/p1.png" alt="populer-products images">
-									</div>
-									<h2><a href="#">arm chair</a></h2>
-									<div class="single-populer-products-para">
-										<p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="single-populer-products">
-									<div class="single-inner-populer-products">
-										<div class="row">
-											<div class="col-md-4 col-sm-12">
-												<div class="single-inner-populer-product-img">
-													<img src="assets/images/populer-products/p2.png" alt="populer-products images">
-												</div>
-											</div>
-											<div class="col-md-8 col-sm-12">
-												<div class="single-inner-populer-product-txt">
-													<h2>
-														<a href="#">
-															latest designed stool <span>and</span> chair
-														</a>
-													</h2>
-													<p>
-														Edi ut perspiciatis unde omnis iste natusina error sit voluptatem accusantium doloret mque laudantium, totam rem aperiam.
-													</p>
-													<div class="populer-products-price">
-														<h4>Sales Start from <span>$99.00</span></h4>
-													</div>
-													<button class="btn-cart welcome-add-cart populer-products-btn" onclick="window.location.href='#'">
-														discover more
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-                            
-							
-								<div class="col-md-3">
-									<div class="single-populer-products"  id="lamp">
-										<div class="single-populer-products">
-											<div class="single-populer-product-img">
-												<img src="assets/images/populer-products/p3.png" alt="populer-products images">
-											</div>
-											<h2><a href="#">hanging lamp</a></h2>
-											<div class="single-populer-products-para">
-												<p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							
-
-						</div>
-					</div>
-				</div><!--/.container-->
-	
-			</section><!--/.populer-products-->
-	
-
-
-
-
-
-
-
-
-
 
 			<!-- top-area Start -->
 			<div class="top-area">
@@ -381,7 +151,7 @@
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-				                <a class="navbar-brand" href="index.html" >hm<span>22</span>.</a>
+				                <a class="navbar-brand" href="index.html">hm<span>22</span>.</a>
 
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
@@ -405,18 +175,170 @@
 			<!-- top-area End -->
 
 		</header><!--/.welcome-hero-->
-
-	  
 		<!--welcome-hero end -->
 
-		<!--populer-products start -->
 		
-		<!--populer-products end-->
+		<div class="myblog"> 
 
-		<!--new-arrivals start -->
-				<!--new-arrivals end -->
+			<section id="blog" class="blog">
+				<div class="container">
+	
+				 
+					
+					<div class="section-header">
+						<h2>latest blog</h2>
+					</div><!--/.section-header-->
+					<div class="blog-content">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="single-blog">
+									<div class="single-blog-img">
+										<img src="assets/images/blog/b1.jpg" alt="blog image">
+										<div class="single-blog-img-overlay"></div>
+									</div>
+									<div class="single-blog-txt">
+										<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+										<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
+										<p>
+											Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
+										</p>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-sm-4">
+								<div class="single-blog">
+									<div class="single-blog-img">
+										<img src="assets/images/blog/b2.jpg" alt="blog image">
+										<div class="single-blog-img-overlay"></div>
+									</div>
+									<div class="single-blog-txt">
+										<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+										<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
+										<p>
+											Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="single-blog">
+									<div class="single-blog-img">
+										<img src="assets/images/blog/b3.jpg" alt="blog image">
+										<div class="single-blog-img-overlay"></div>
+									</div>
+									<div class="single-blog-txt">
+										<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+										<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
+										<p>
+											Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+				
+	
+				</div><!--/.container-->
+				
+			</section><!--/.blog-->
+		</div>
+	    <!-- clients strat -->
+		<section id="clients"  class="clients">
+			<div class="container">
+				<div class="owl-carousel owl-theme" id="client">
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c1.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c2.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c3.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c4.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c5.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
 
-		<!--footer start-->
+			</div><!--/.container-->
+
+		</section><!--/.clients-->	
+		<!-- clients end -->
+	
+		
+
+		<!--newsletter strat -->
+			<div class="page-container">
+				<div class="titre">
+					<h2>Contactez-Nous</h2>
+					<p>Nous sommes disponibles du lundi au samedi de 10h à 19h.</p>
+				</div>
+				<section class="boxes">
+					<div class="box-container">
+						<div class="box">
+							<img src="assets/images/img-icons/phone-call.png">
+							<h5>Par téléphone</h5>
+							<p>Appelez-nous au:+212 06 52 32 12 90 (du lundi au samedi de 10h à 19h)</p>
+					</div>
+		
+					<div class="box">
+							<img src="assets/images/img-icons/bubble-chat.png">
+							<h5>Par chat</h5>
+							<p>Posez-nous toutes vos questions en cliquant sur le chat en bas à gauche de chaque page</p>
+					</div>
+		
+					<div class="box">
+							<img src="assets/images/img-icons/email.png">
+							<h5>Par mail</h5>
+							<p>Ecrivez-nous sur l'adresse mail:contact@gmail.com</p>
+					</div>
+
+                    
+
+
+					</div>
+				</section>
+			</div>
+            <div class="information">
+				<div class="message">
+					<label for="">Nom:</label>
+					<input type="text" placeholder="Entrer votre nom">
+					<label for="">Prenom:</label>
+					<input type="text" placeholder="Entrer votre prenom">
+					<label for="">Email:</label>
+					<input type="email" placeholder="Entrer votre mail">
+				</div>
+				<div class="message">
+					<textarea  cols="80" rows="12" placeholder="Message"></textarea>
+					<button  id="btn" class="btn-cart welcome-add-cart populer-products-btn" onclick="window.location.href='#'">
+						Envoyer
+					</button>
+				</div>
+			</div>
+			
+			
+
+      
+
+
+		<!--newsletter end -->
+
 		<!--footer start-->
 		<footer id="footer"  class="footer">
 			<div class="container">
@@ -442,7 +364,6 @@
 			</div><!--/.scroll-Top-->
 			
         </footer><!--/.footer-->
-		<!--footer end-->
 		<!--footer end-->
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->

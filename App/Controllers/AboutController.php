@@ -1,6 +1,6 @@
 <?php
 
-class HomeController{
+class AboutController{
     
     public function index(){
 
@@ -9,7 +9,7 @@ class HomeController{
         // // require_once(VIEWS.'home.php');
         // $data['title']="Home22";
         // $data['content']="contenu page home";
-        View::load('home');
+        View::load('about');
     }
 }
 
