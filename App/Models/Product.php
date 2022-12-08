@@ -14,4 +14,15 @@ class Product extends DB{
     { 
         return $this->conn->get($this->table);
     }
+
+    public function insertProduit($data){
+
+        return $this->conn->insert($this->table,$data);
+    }
+    public function deleteProduct($id){
+
+        $db = $this->conn->where('id',$id);
+
+        return $db->delete($this->table);
+    }
 }
