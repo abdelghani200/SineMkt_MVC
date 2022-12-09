@@ -29,7 +29,7 @@ class ProductController{
                             "price" => $price,
                             "image" => $image
                             );
-            echo $name ."---------------" . $price ."---------------";
+            // echo $name ."---------------" . $price ."---------------";
             $db = new Product();
             if($db->insertProduit($data))
             {

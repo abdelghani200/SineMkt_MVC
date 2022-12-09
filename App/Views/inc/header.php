@@ -16,7 +16,7 @@
 
 
         <!-- Bootstrap CSS -->
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+       
 
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -55,7 +55,8 @@
 		
         
         <!--responsive.css-->
-        <link rel="stylesheet" href="../.././assets/css/responsive.css">
+        <link rel="stylesheet" href="../../assets/css/responsive.css">
+        
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -177,7 +178,7 @@
                             <li><a href="<?php url('newarival') ?>">New Arrival</a></li>
                             <li><a href="<?php url('feature') ?>">Features</a></li>
                             <li><a href="<?php url('about') ?>">About Us</a></li>
-                            <li><a href="<?php url('product/add')   ?>" class="sign" style="margin-left: 10rem;color: blue;">Sign In</a></li>
+                            <li><a href="<?php url('login') ?>" class="sign" style="margin-left: 10rem;color: blue;">Sign In</a></li>
                         </ul>                       
                         <!--/.nav -->
                     </div><!-- /.navbar-collapse -->
