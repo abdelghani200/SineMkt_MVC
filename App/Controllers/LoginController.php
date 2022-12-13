@@ -9,38 +9,40 @@ class LoginController{
     public function index()
     {
 
-        $db = new Login();
-        $data['users'] = $db->getUser();
+        // $db = new Login();
+        //$data['users'] = $db->getUser();
         // var_dump($data['users']);
-        View::load('login',$data);
+        View::load('login');
         
     }
     
     public function getLogin(){
-        
-        if(isset($_POST['login'])){
-            $username = $_POST['username'];
-            $password = $_POST['password'];
 
-            $this->conn = new Product();
-            $data = Array ( "username" => trim($username) ,
-                            "password" => trim($password)
-                            );
-            echo $username ."---------------" . $password ."---------------";   
-            //var_dump($data);
-            $db = new Login();
-            if($db->insertUser($data)){
-                echo "hhhhhh";
-                header("Location: http://mvc_ex1.test/product/index");
+        $login = new Login();
+
+        if(isset($_POST["submit"])){
+            $result = $login->login($_POST["username"], $_POST["password"]);
+          
+            if($result == 1){
+              $_SESSION["login"] = true;
+              $_SESSION["id"] = $login->idUser();
+              // header("Location: index.php");
+              // View::load('product/index');
+              header("Location: http://mvc_ex1.test/product/index");
             }
-            
             else{
-                echo 'La3dass';
+              //echo  "<script> alert('Wrong Password'); </script>";
+              View::load('login', ["error" => "Data Not Successfully"]);
             }
-
-           
+          }
+          
+          
+          // if($result == 0)
+          // elseif($result == 100){
+          //   echo
+          //   "<script> alert('User Not Registered'); </script>";
+          // }
         }
-    }
    
 
 

@@ -15,12 +15,14 @@ class App{
     public function prepareUrl($url){
 
         $url = trim($url,"/");
-        if(!empty($url)){
-            $url = explode("/",$url);
+        if(!empty($url))
+        {
+            $url = explode('/',$url);
             $this->controller = isset($url[0]) ? ucwords($url[0])."Controller" :"HomeController";
             // echo $this->controller;
             $this->action =isset($url[1]) ? $url[1]:"index";
             // echo $this->action;
+            unset($url[0],$url[1]);
             $this->params = !empty($url) ?array_values($url):[];
         }
     }

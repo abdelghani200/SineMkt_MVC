@@ -1,13 +1,13 @@
 
 
-<?php include(VIEWS . 'inc' . DS . 'header.php'); ?>
+<?php include(VIEWS . 'inc' . DS . 'nav.php'); ?>
 
 
 
 <h1 class="text-center   mb-2 py-3" style="margin-top: 15rem;">Add New Product </h1>
 
 <div class="container mt-5">
-  <a type="submit" href="<?php  url('product/index') ;?>" name="submit" class="btn btn-primary" class="float-right">View</a>
+  <!-- <a type="submit" href="<?php  url('product/index') ;?>" name="submit" class="btn btn-primary" class="float-right">View</a> -->
     <div class="row">
         <div class="col-8 mx-auto">
 
@@ -30,7 +30,7 @@
 
                 <div class="form-group">
                     <label for="image">Image</label>
-                    <input type="file" required class="form-control" name="image" id="image" multiple="multiple" >
+                    <input type="file" required class="form-control" name="file" id="image" multiple="multiple" >
                 </div>
 
 
