@@ -962,4 +962,45 @@ span.feature-review {margin-left: 10px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
+/*========================Thank you=================*/
+
+.btn-edit{
+    background-color: lightblue !important;
+    color: white !important;
+    cursor: pointer;
+    transition: none;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 4px;
+}
+.btn-info:hover{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 4px;
+}
+.btn-danger{
+    background-color: rgb(210, 40, 40) !important;
+    color: white !important;
+    cursor: pointer;
+    transition: none;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 4px;
+}
+.btn-danger:hover{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 4px;
+}
+
+

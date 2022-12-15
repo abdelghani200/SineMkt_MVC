@@ -1,9 +1,10 @@
 <?php include(VIEWS . 'inc' . DS . 'nav.php'); ?>
 <!-- <h1 class="text-center  my-5 py-3" style="margin-top: 15rem;">View All Products </h1> -->
 
+
 <div class="container mt-5">
-    <div  style="margin-top: 10rem;">
-        <div class="text-center   mb-2 py-3" style="color: black;font-size:27px;">
+    <div style="margin-top: 10rem;">
+        <div class="text-center   mb-2 py-3" style="color: black;font-size:27px;margin-top:15rem;">
             View All Products.
         </div>
     </div>
@@ -21,24 +22,27 @@
                     </tr>
                 </thead>
                 <tbody>
-                       
 
+                    
                     <?php $i = 1; ?>
                     <?php foreach ($products as $row) :  ?>
-                        <tr>    
+                        <tr>
                             <td> <?php echo $i;
                                     $i++; ?></td>
-                            <td><?php echo $row['name'];?></td>
+                            <td><?php echo $row['name']; ?></td>
                             <td><?php echo $row['price']; ?> <b class="float-right"> Dh </b></td>
                             <td>
-                                <?php //echo '<img   style="width: 80px; height: 80px; border-radius: 50px;" src="'.$row['image'].'"/>'; ?>
-                                <img src="<?php echo BURL . '/'.$row['image'] ?>" style="width: 80px; height: 80px; border-radius: 50px;" alt="">
+                                <?php //echo '<img   style="width: 80px; height: 80px; border-radius: 50px;" src="'.$row['image'].'"/>'; 
+                                ?>
+                                <img src="<?php echo BURL . '/' . $row['image'] ?>" style="width: 80px; height: 80px; border-radius: 50px;" alt="">
                             </td>
                             <td>
-                                <a href="<?php url('/product/edit/' . $row['id']) ?>" class="btn btn-info">Edit</a>
+                               
+                                <a href="<?php url('/product/edit/' . $row['id']) ?>" class="btn btn-info ">Edit</a>
+                               
                             </td>
                             <td>
-                                <a href="<?php url('/product/delete/' . $row['id']) ?>" class="btn btn-danger">Delete</a>
+                                <a href="<?php url('/product/delete/' . $row['id']) ?>" class="btn btn-danger ">Delete</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>

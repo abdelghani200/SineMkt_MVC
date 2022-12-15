@@ -441,6 +441,10 @@ nav.navbar.bootsnav .share ul > li{
     margin-right: 5px;
 }
 
+/* .btn-danger:hover{
+      color: black;
+} */
+
 nav.navbar.bootsnav .share ul > li > a{
     display: table-cell;
     vertical-align: middle;

@@ -13,7 +13,7 @@ class View {
             ob_end_flush();
         }
         else{
-            echo "this view :".$view_name . "dose not exist";
+            // echo "this view :".$view_name . "dose not exist";
         }
     }
 }

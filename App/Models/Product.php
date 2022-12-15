@@ -33,15 +33,15 @@ class Product extends DB{
 
     public function getRow($id)
     {
-        $db =$this->conn->where("id",$id);
+        $db =$this->conn->where ("id",$id);
         return $db->getOne($this->table);
     }
 
     
     public function updateProduct($id,$data)
     {
-        $product = $this->db->connect()->where('id', $id);
-        return $product->update($this->table,$data);
+        $db = $this->conn->where('id', $id);
+        return $db->update($this->table,$data);
     }
     
     

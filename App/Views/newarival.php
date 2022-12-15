@@ -213,7 +213,7 @@
 								</div>
 							</div>
 							<h4><a href="#"><?php echo $row['name']; ?></a></h4>
-							<p class="arrival-product-price"><?php echo $row['price']; ?> <b class="float-right"> Dh </b></p>
+							<p class="arrival-product-price"><b class="float-right"> $ </b><?php echo $row['price'].".00"; ?></p>
 						</div>
 					</div>
 				<?php endforeach; ?>

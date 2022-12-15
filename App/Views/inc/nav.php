@@ -179,7 +179,7 @@
                             <li><a href="<?php url('newarival') ?>">New Arrival</a></li>
                             <li><a href="<?php url('product/add') ?>">Add New Product</a></li>
                             <li><a href="<?php url('product/index') ?>">List The Products</a></li>
-                            <li><a href="<?php url('login') ?>" class="sign" style="margin-left: 10rem;color: blue;">Sign In</a></li>
+                            <li><a href="<?php url('login') ?>" class="sign" style="margin-left: 10rem;color: blue;">Loug out</a></li>
                         </ul>                       
                         <!--/.nav -->
                     </div><!-- /.navbar-collapse -->
