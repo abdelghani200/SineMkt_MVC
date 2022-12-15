@@ -201,6 +201,17 @@
 							<div class="single-new-arrival-bg">
 								<img src="<?php echo BURL . '/' . $row['image'] ?>" style="width: 80px; height: 80px; border-radius: 50px;" alt="">
 								<div class="single-new-arrival-bg-overlay"></div>
+								<?php if ($row['id'] % 2 == 0) : ?>
+									<div class="sale bg-1">
+										<p>sale</p>
+									</div>
+								<?php endif; ?>
+								<?php if ($row['id'] % 3 == 0) : ?>
+									<div class="sale bg-2">
+										<p>sale</p>
+									</div>
+								<?php endif; ?>
+
 								<div class="new-arrival-cart">
 									<p>
 										<span class="lnr lnr-cart"></span>
@@ -213,10 +224,13 @@
 								</div>
 							</div>
 							<h4><a href="#"><?php echo $row['name']; ?></a></h4>
-							<p class="arrival-product-price"><b class="float-right"> $ </b><?php echo $row['price'].".00"; ?></p>
+							<p class="arrival-product-price"><b class="float-right"> $ </b><?php echo $row['price'] . ".00"; ?></p>
 						</div>
 					</div>
 				<?php endforeach; ?>
+
+
+
 				<!--  -->
 			</div>
 		</div>
