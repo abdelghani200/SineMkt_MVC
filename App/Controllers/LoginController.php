@@ -32,7 +32,7 @@ class LoginController{
             }
             else{
               //echo  "<script> alert('Wrong Password'); </script>";
-              View::load('login', ["error" => "Data Not Successfully"]);
+              View::load('login', ["error" => "Notre Donne Incorrenct !!"]);
             }
           }
           

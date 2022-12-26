@@ -41,4 +41,10 @@ class App{
             echo "controller not exist";
         }
     }
+    
 }
+
+
+// $array  = 'one/two/tree/foor';
+
+// print_r(explode('/',$array));

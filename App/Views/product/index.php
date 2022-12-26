@@ -1,5 +1,6 @@
 <?php include(VIEWS . 'inc' . DS . 'nav.php'); ?>
-<!-- <h1 class="text-center  my-5 py-3" style="margin-top: 15rem;">View All Products </h1> -->
+
+
 
 
 <div class="container mt-5">
@@ -23,7 +24,6 @@
                 </thead>
                 <tbody>
 
-                    
                     <?php $i = 1; ?>
                     <?php foreach ($products as $row) :  ?>
                         <tr>
@@ -32,14 +32,13 @@
                             <td><?php echo $row['name']; ?></td>
                             <td><?php echo $row['price']; ?> <b class="float-right"> Dh </b></td>
                             <td>
-                                <?php //echo '<img   style="width: 80px; height: 80px; border-radius: 50px;" src="'.$row['image'].'"/>'; 
-                                ?>
-                                <img src="<?php echo BURL . '/' . $row['image'] ?>" style="width: 80px; height: 80px; border-radius: 50px;" alt="">
+                                
+                                    
                             </td>
                             <td>
-                               
+
                                 <a href="<?php url('/product/edit/' . $row['id']) ?>" class="btn btn-info ">Edit</a>
-                               
+
                             </td>
                             <td>
                                 <a href="<?php url('/product/delete/' . $row['id']) ?>" class="btn btn-danger ">Delete</a>

@@ -2,7 +2,7 @@
 
 
 // define pase url for the project 
-define("BURL","http://mvc_ex1.test//");
+define("BURL","http://mvc_ex1.test/");
 
 
 /**

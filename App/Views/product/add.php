@@ -1,5 +1,3 @@
-
-
 <?php include(VIEWS . 'inc' . DS . 'nav.php'); ?>
 
 
@@ -10,7 +8,7 @@
   <!-- <a type="submit" href="<?php  url('product/index') ;?>" name="submit" class="btn btn-primary" class="float-right">View</a> -->
     <div class="row">
         <div class="col-8 mx-auto">
-
+    
 
             <?php if (isset($success)) : ?>
                 <h3 class="alert alert-success text-center"><?php echo $success; ?></h3>
